@@ -12,6 +12,7 @@ jobs:
       contents: read
 
     steps:
+    # Upstream: https://github.com/sigstore/cosign-installer
       - name: Install Cosign
         uses: chainguard-actions/cosign-installer@0ac3a167a7c7cba3bc0c2a13d1f2abcf18adecda
 
@@ -24,6 +25,7 @@ jobs:
       contents: read
 
     steps:
+    # Upstream: https://github.com/imjasonh/setup-crane
       - name: Install Crane
         uses: chainguard-actions/setup-crane@da590462950ad7f31ba01fc43ad1144bc532f265
 
